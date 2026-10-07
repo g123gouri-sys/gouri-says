@@ -22,8 +22,8 @@ function App() {
       <Route element={<ProtectedRoutes />}>
         <Route path="/" element={<Dashboard />} />
         <Route path="/user-profile" element={<UserProfile />} />
-        <Route path="/table-list" element={<TableList />} />
-        <Route path="/Orders" element={<Typography />} />
+        
+        
         <Route path="/settings" element={<Settings />} />
         <Route path="/notifications" element={<Navigate to="/settings" replace />} />
         <Route path="/upgrade-to-pro" element={<UpgradeToPro />} />
