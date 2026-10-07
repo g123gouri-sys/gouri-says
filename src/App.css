@@ -1748,10 +1748,6 @@ body * {
   color: #9aaabb !important;
 }
 
-/* Labels */
-:root[data-theme='light'] .main-area [data-slot="card"] label {
-  color: #4a5568 !important;
-}
 
 /* Card title and description */
 :root[data-theme='light'] .main-area [data-slot="card-title"] {
